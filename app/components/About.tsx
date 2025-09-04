@@ -53,6 +53,15 @@ export default function About() {
           >
             About <span className="text-[#D4AF37]">Us</span>
           </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="text-[#F5F5F5] text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed"
+          >
+            The partnership approach that transforms ambitious companies into market leaders through proven strategies and innovative solutions.
+          </motion.p>
         </motion.div>
 
         {/* Main Content */}
