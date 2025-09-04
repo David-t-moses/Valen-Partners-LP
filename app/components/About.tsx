@@ -74,12 +74,12 @@ export default function About() {
             viewport={{ once: true }}
             className="lg:order-1"
           >
-            <div className="w-full max-w-md mx-auto">          
+            <div className="w-full max-w-md">          
               <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
                 <Image
                   src="/mario.png"
                   alt="Mario - Founder of Valen & Partners"
-                  width={400}
+                  width={500}
                   height={400}
                   className="w-full h-full object-cover object-bottom"
                 />
