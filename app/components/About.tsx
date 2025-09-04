@@ -74,34 +74,16 @@ export default function About() {
             viewport={{ once: true }}
             className="lg:order-1"
           >
-            <div className="w-full max-w-md mx-auto">
-              {/* Placeholder for founder image - replace mario.png with your converted image */}
-              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                <div className="w-full h-full bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-[#D4AF37]/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-[#D4AF37] text-2xl font-bold">M</span>
-                    </div>
-                    <p className="text-[#F5F5F5] text-sm">
-                      Founder Image<br />
-                      <span className="text-[#D4AF37] text-xs">
-                        (Convert mario.heic to mario.png and place in /public)
-                      </span>
-                    </p>
-                  </div>
-                </div>
+            <div className="w-full max-w-md mx-auto">          
+              <div className="aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
+                <Image
+                  src="/mario.png"
+                  alt="Mario - Founder of Valen & Partners"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover object-bottom"
+                />
               </div>
-              
-              {/* Uncomment and use this when you add the converted image */}
-              {/* 
-              <Image
-                src="/mario.png"
-                alt="Mario - Founder of Valen & Partners"
-                width={400}
-                height={400}
-                className="w-full h-full object-cover rounded-2xl shadow-2xl"
-              />
-              */}
             </div>
           </motion.div>
 
@@ -164,14 +146,25 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
           viewport={{ once: true }}
-          className="text-center mt-16"
+          className="text-center mt-20"
         >
-          <p className="text-[#F5F5F5] text-lg mb-8">
-            Ready to experience true partnership in business growth?
-          </p>
-          <button className="bg-[#0A2640] hover:bg-[#D4AF37] text-white px-10 py-3 rounded-md text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37]">
-            Partner With Us
-          </button>
+          <div className="bg-gradient-to-r from-[#0A2640]/20 to-[#D4AF37]/20 p-12 rounded-3xl border-2 border-[#0A2640]/50 shadow-2xl backdrop-blur-sm max-w-3xl mx-auto">
+            <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6">
+              Experience True <span className="text-[#D4AF37]">Partnership</span>
+            </h3>
+            <p className="text-[#F5F5F5] text-xl mb-10 leading-relaxed max-w-2xl mx-auto">
+              Join the elite companies that have transformed their business with our proven partnership approach. Your success story starts here.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <button className="bg-gradient-to-r from-[#0A2640] to-[#0A2640]/90 hover:from-[#D4AF37] hover:to-[#D4AF37]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#D4AF37]/25 border-2 border-[#0A2640] hover:border-[#D4AF37] min-w-[280px]">
+                Partner With Us
+                <span className="ml-3 text-2xl">🤝</span>
+              </button>
+              <button className="bg-transparent hover:bg-[#D4AF37]/10 text-[#D4AF37] hover:text-white px-8 py-5 rounded-xl text-lg font-semibold transition-all duration-300 border-2 border-[#D4AF37] hover:border-[#D4AF37] min-w-[200px]">
+                Learn More
+              </button>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>

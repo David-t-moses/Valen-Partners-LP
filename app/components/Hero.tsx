@@ -89,7 +89,7 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="pt-8"
           >
-            <button className="bg-[#0A2640] hover:bg-[#0A2640]/90 text-white px-8 py-4 rounded-md text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button className="bg-[#0A2640] hover:bg-[#D4AF37] text-white px-8 py-5 border-2 border-[#D4AF37] hover:border-[#0A2640] rounded-md text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse-scale">
               Book Your Consultation
             </button>
           </motion.div>

@@ -182,12 +182,18 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mt-20"
         >
-          <p className="text-[#F5F5F5] text-xl mb-8">
-            Ready to transform your business with our comprehensive solutions?
-          </p>
-          <button className="bg-[#0A2640] hover:bg-[#D4AF37] text-white px-10 py-3 rounded-md text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37]">
-            Get Started Today
-          </button>
+          <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] p-10 rounded-3xl border-2 border-[#D4AF37]/40 shadow-2xl max-w-2xl mx-auto">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
+              Ready to <span className="text-[#D4AF37]">Scale Beyond Limits</span>?
+            </h3>
+            <p className="text-[#F5F5F5] text-lg mb-8 leading-relaxed">
+              Transform your business with our comprehensive solutions and proven strategies that deliver results.
+            </p>
+            <button className="bg-gradient-to-r from-[#D4AF37] to-[#D4AF37]/90 hover:from-[#0A2640] hover:to-[#0A2640]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[300px]">
+              Get Started Today
+              <span className="ml-3 text-2xl">🚀</span>
+            </button>
+          </div>
         </motion.div>
       </div>
     </section>
