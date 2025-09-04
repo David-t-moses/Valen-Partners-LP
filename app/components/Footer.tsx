@@ -89,10 +89,10 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-2">
               <a
-                href="mailto:info@valenpartners.com"
+                href="mailto:info@valen-partners.com"
                 className="text-[#F5F5F5] hover:text-[#D4AF37] transition-colors duration-300 block"
               >
-                info@valenpartners.com
+                info@valen-partners.com
               </a>
               <p className="text-[#F5F5F5] text-sm">
                 Ready to scale without limits?

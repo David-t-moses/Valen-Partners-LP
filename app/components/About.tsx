@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -55,85 +56,63 @@ export default function About() {
         </motion.div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left Content */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+          {/* Left Content - Founder Image */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
-            className="space-y-8"
+            className="lg:order-1"
+          >
+            <div className="w-full max-w-md mx-auto">
+              {/* Placeholder for founder image - replace mario.png with your converted image */}
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <div className="w-full h-full bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] flex items-center justify-center">
+                  <div className="text-center">
+                    <div className="w-24 h-24 bg-[#D4AF37]/20 rounded-full mx-auto mb-4 flex items-center justify-center">
+                      <span className="text-[#D4AF37] text-2xl font-bold">M</span>
+                    </div>
+                    <p className="text-[#F5F5F5] text-sm">
+                      Founder Image<br />
+                      <span className="text-[#D4AF37] text-xs">
+                        (Convert mario.heic to mario.png and place in /public)
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Uncomment and use this when you add the converted image */}
+              {/* 
+              <Image
+                src="/mario.png"
+                alt="Mario - Founder of Valen & Partners"
+                width={400}
+                height={400}
+                className="w-full h-full object-cover rounded-2xl shadow-2xl"
+              />
+              */}
+            </div>
+          </motion.div>
+
+          {/* Right Content - About Text */}
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="space-y-6 lg:order-2"
           >
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
-              className="text-xl sm:text-2xl text-[#D4AF37] font-semibold leading-relaxed"
+              className="text-lg sm:text-xl text-[#F5F5F5] leading-relaxed"
             >
-              At Valen & Partners, we believe true growth comes from partnership, not transactions.
+              Many companies struggle to scale because they rely on outdated strategies, underutilize modern tools, or fail to adapt to the fast-changing business world. At Valen & Partners, we combine deep business knowledge with innovative marketing, AI solutions, and proven growth strategies to help brands break boundaries, unlock their full potential, and thrive.
             </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.5 }}
-              viewport={{ once: true }}
-              className="text-lg text-[#F5F5F5] leading-relaxed"
-            >
-              We are a premium consulting, marketing, and AI implementation firm built to help ambitious companies scale without limits.
-            </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              viewport={{ once: true }}
-              className="text-lg text-[#F5F5F5] leading-relaxed"
-            >
-              Our approach goes beyond traditional agency work, we integrate into your business as trusted partners, guiding strategy, execution, and innovation. From high-performance marketing to advanced AI solutions, we deliver the tools, insights, and strategies that position your company for sustainable success.
-            </motion.p>
-          </motion.div>
-
-          {/* Right Content */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
-            <div className="bg-gradient-to-br from-[#1a1a1a] to-[#0d0d0d] p-8 lg:p-12 rounded-2xl border border-gray-800 hover:border-[#D4AF37]/50 transition-all duration-300">
-              <motion.h3
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.7 }}
-                viewport={{ once: true }}
-                className="text-2xl lg:text-3xl font-bold text-white mb-6"
-              >
-                Our <span className="text-[#D4AF37]">Mission</span>
-              </motion.h3>
-              
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                viewport={{ once: true }}
-                className="text-lg text-[#F5F5F5] leading-relaxed mb-6"
-              >
-                We work with established businesses, high-ticket service providers, and high-potential startups that are ready to take the next step.
-              </motion.p>
-
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.9 }}
-                viewport={{ once: true }}
-                className="text-xl font-semibold text-[#0A2640]"
-              >
-                With Valen & Partners, scaling isn't just possible — it's inevitable.
-              </motion.p>
-            </div>
           </motion.div>
         </div>
 

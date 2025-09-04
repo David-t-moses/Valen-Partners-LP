@@ -10,20 +10,7 @@ export default function Hero() {
     >
       {/* Animated Background Decorations */}
       <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
-        {/* Gold outline circle - the appealing one you wanted to keep */}
-        {/* <motion.div
-          className="absolute top-1/4 left-1/4 w-40 h-40 border-2 border-[#D4AF37]/60 rounded-full"
-          animate={{
-            rotate: 360,
-            scale: [1, 1.1, 1],
-          }}
-          transition={{
-            rotate: { duration: 20, repeat: Infinity, ease: "linear" },
-            scale: { duration: 4, repeat: Infinity, ease: "easeInOut" },
-          }}
-        /> */}
-
-        {/* Enhanced Gold Light in the Middle */}
+              {/* Enhanced Gold Light in the Middle */}
         <motion.div
           className="absolute top-1/3 right-1/3 w-96 h-96 bg-gradient-to-r from-[#D4AF37]/35 to-[#0A2640]/25 rounded-full blur-3xl"
           animate={{
@@ -37,20 +24,7 @@ export default function Hero() {
           }}
         />
         
-        {/* Professional Elegant Element - Subtle Arc */}
-        <motion.div
-          className="absolute bottom-1/4 right-1/5 w-48 h-48"
-          animate={{
-            rotate: 360,
-          }}
-          transition={{
-            duration: 30,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        >
-          <div className="w-full h-full border-l-2 border-t-2 border-[#0A2640]/40 rounded-full" />
-        </motion.div>
+        
 
         {/* Subtle Secondary Glow */}
         <motion.div
@@ -91,9 +65,9 @@ export default function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight"
           >
-            We partner with{' '}
-            <span className="text-[#D4AF37]">ambitious companies</span>{' '}
-            to scale without limits.
+            The Advisory Behind the Most{' '}
+            <span className="text-[#D4AF37]">Ambitious Modern</span>{' '}
+            Businesses.
           </motion.h1>
 
           {/* Subheadline */}
@@ -103,9 +77,9 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-[#F5F5F5] text-lg sm:text-xl lg:text-2xl max-w-4xl mx-auto leading-relaxed"
           >
-            Valen & Partners is a premium consulting, marketing, and AI implementation firm. 
-            We don't just deliver services — we integrate into your business, helping you 
-            accelerate growth, dominate your market, and build long-term advantage.
+            We help elite companies scale beyond limits, stay efficient, and build growth engines, 
+            by implementing the exact strategies, AI-driven systems, and tools that have transformed 
+            brands into market leaders.
           </motion.p>
 
           {/* Call to Action */}
