@@ -95,6 +95,15 @@ export default function About() {
             viewport={{ once: true }}
             className="space-y-6 lg:order-2"
           >
+            <motion.h3
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="text-3xl sm:text-4xl font-bold text-white mb-6"
+            >
+              Valen & <span className="text-[#D4AF37]">Partners</span>
+            </motion.h3>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -158,7 +167,6 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button className="bg-gradient-to-r from-[#0A2640] to-[#0A2640]/90 hover:from-[#D4AF37] hover:to-[#D4AF37]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#D4AF37]/25 border-2 border-[#0A2640] hover:border-[#D4AF37] min-w-[280px]">
                 Partner With Us
-                <span className="ml-3 text-2xl">🤝</span>
               </button>
               <button className="bg-transparent hover:bg-[#D4AF37]/10 text-[#D4AF37] hover:text-white px-8 py-5 rounded-xl text-lg font-semibold transition-all duration-300 border-2 border-[#D4AF37] hover:border-[#D4AF37] min-w-[200px]">
                 Learn More

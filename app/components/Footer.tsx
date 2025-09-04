@@ -70,7 +70,7 @@ export default function Footer() {
                 alt="Valen & Partners"
                 width={180}
                 height={40}
-                className="h-10 w-auto mx-auto lg:mx-0"
+                className="h-12 w-auto mx-auto lg:mx-0"
               />
             </div>
             <p className="text-[#D4AF37] text-sm font-medium tracking-wide uppercase">
@@ -121,9 +121,8 @@ export default function Footer() {
               >
                 About
               </a>
-              <button className="bg-[#0A2640]/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] min-w-[220px]">
+              <button className="bg-[#0A2640] hover:bg-[#D4AF37] text-white px-8 py-3 rounded-lg text-base font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37]">
                 Book Consultation
-                <span className="ml-2 text-xl">📞</span>
               </button>
             </div>
           </motion.div>

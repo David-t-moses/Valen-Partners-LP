@@ -39,9 +39,9 @@ export default function Navbar() {
               <Image
                 src="/logo-light.png"
                 alt="Valen & Partners"
-                width={160}
-                height={36}
-                className="h-8 w-auto"
+                width={180}
+                height={40}
+                className="h-12 auto"
                 priority
               />
             </a>

@@ -191,7 +191,6 @@ export default function Services() {
             </p>
             <button className="bg-gradient-to-r from-[#D4AF37] to-[#D4AF37]/90 hover:from-[#0A2640] hover:to-[#0A2640]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[300px]">
               Get Started Today
-              <span className="ml-3 text-2xl">🚀</span>
             </button>
           </div>
         </motion.div>
