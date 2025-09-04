@@ -121,7 +121,7 @@ export default function Footer() {
               >
                 About
               </a>
-              <button className="bg-[#0A2640]/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[220px]">
+              <button className="bg-[#0A2640]/90 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] min-w-[220px]">
                 Book Consultation
                 <span className="ml-2 text-xl">📞</span>
               </button>
