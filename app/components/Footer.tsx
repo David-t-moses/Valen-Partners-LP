@@ -121,9 +121,14 @@ export default function Footer() {
               >
                 About
               </a>
-              <button className="bg-[#0A2640] hover:bg-[#D4AF37] text-white px-8 py-3 rounded-lg text-base font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37]">
+              <a 
+                href="https://calendly.com/mario-valen-partners/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#0A2640] hover:bg-[#D4AF37] text-white px-8 py-3 rounded-lg text-base font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37]"
+              >
                 Book Consultation
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>

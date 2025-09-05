@@ -165,12 +165,22 @@ export default function About() {
               Join the elite companies that have transformed their business with our proven partnership approach. Your success story starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="bg-gradient-to-r from-[#0A2640] to-[#0A2640]/90 hover:from-[#D4AF37] hover:to-[#D4AF37]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#D4AF37]/25 border-2 border-[#0A2640] hover:border-[#D4AF37] min-w-[280px]">
+              <a 
+                href="https://calendly.com/mario-valen-partners/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-gradient-to-r from-[#0A2640] to-[#0A2640]/90 hover:from-[#D4AF37] hover:to-[#D4AF37]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#D4AF37]/25 border-2 border-[#0A2640] hover:border-[#D4AF37] min-w-[280px]"
+              >
                 Partner With Us
-              </button>
-              <button className="bg-transparent hover:bg-[#D4AF37]/10 text-[#D4AF37] hover:text-white px-8 py-5 rounded-xl text-lg font-semibold transition-all duration-300 border-2 border-[#D4AF37] hover:border-[#D4AF37] min-w-[200px]">
+              </a>
+              <a 
+                href="https://calendly.com/mario-valen-partners/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-transparent hover:bg-[#D4AF37]/10 text-[#D4AF37] hover:text-white px-8 py-5 rounded-xl text-lg font-semibold transition-all duration-300 border-2 border-[#D4AF37] hover:border-[#D4AF37] min-w-[200px]"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </motion.div>

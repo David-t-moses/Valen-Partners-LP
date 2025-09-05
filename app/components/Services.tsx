@@ -189,9 +189,14 @@ export default function Services() {
             <p className="text-[#F5F5F5] text-lg mb-8 leading-relaxed">
               Transform your business with our comprehensive solutions and proven strategies that deliver results.
             </p>
-            <button className="bg-gradient-to-r from-[#D4AF37] to-[#D4AF37]/90 hover:from-[#0A2640] hover:to-[#0A2640]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[300px]">
+            <a 
+              href="https://calendly.com/mario-valen-partners/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-gradient-to-r from-[#D4AF37] to-[#D4AF37]/90 hover:from-[#0A2640] hover:to-[#0A2640]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[300px]"
+            >
               Get Started Today
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

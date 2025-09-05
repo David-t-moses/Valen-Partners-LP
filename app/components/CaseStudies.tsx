@@ -10,7 +10,7 @@ export default function CaseStudies() {
               {/* Section Header */}
               <div className="text-center mb-16">
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-                  Case Studies <span className="text-[#D4AF37]">& Results</span>
+                  Numbers <span className="text-[#D4AF37]">& Results</span>
                 </h2>
                 <p className="text-[#F5F5F5] text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed">
                   A snapshot of outcomes delivered through data-driven strategy, efficient execution, and repeatable systems.
@@ -68,9 +68,14 @@ export default function CaseStudies() {
                   <p className="text-[#F5F5F5] text-lg mb-8 leading-relaxed">
                     Let’s build a plan tailored to your growth targets and implement the systems to hit them sooner.
                   </p>
-                  <button className="bg-gradient-to-r from-[#D4AF37] to-[#D4AF37]/90 hover:from-[#0A2640] hover:to-[#0A2640]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[300px]">
+                  <a 
+                    href="https://calendly.com/mario-valen-partners/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-gradient-to-r from-[#D4AF37] to-[#D4AF37]/90 hover:from-[#0A2640] hover:to-[#0A2640]/90 text-white px-12 py-5 rounded-xl text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-[#0A2640]/25 border-2 border-[#D4AF37] hover:border-[#0A2640] min-w-[300px]"
+                  >
                     Book Your Consultation
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

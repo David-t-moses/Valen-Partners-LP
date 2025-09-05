@@ -89,9 +89,14 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="pt-8"
           >
-            <button className="bg-[#0A2640] text-white px-8 py-5 border-2 border-[#D4AF37] rounded-xl text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse-scale">
+            <a 
+              href="https://calendly.com/mario-valen-partners/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#0A2640] text-white px-8 py-5 border-2 border-[#D4AF37] rounded-xl text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-pulse-scale"
+            >
               Book Your Consultation
-            </button>
+            </a>
           </motion.div>
         </motion.div>
       </div>

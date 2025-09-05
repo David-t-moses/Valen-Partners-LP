@@ -87,11 +87,16 @@ export default function Navbar() {
                 Contact
               </a>
               <div className="ml-4">
-                <button className="relative bg-[#0A2640] hover:bg-[#D4AF37] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37] overflow-hidden group">
+                <a 
+                  href="https://calendly.com/mario-valen-partners/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative inline-block bg-[#0A2640] hover:bg-[#D4AF37] text-white px-6 py-3 rounded-xl text-sm font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border border-[#0A2640] hover:border-[#D4AF37] overflow-hidden group"
+                >
                   {/* Infinite Shimmer Effect */}
                   <div className="absolute inset-0 -top-1 -bottom-1 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 animate-shimmer"></div>
                   <span className="relative z-10">Book Your Consultation</span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -168,14 +173,17 @@ export default function Navbar() {
                   Contact
                 </a>
                 <div className="pt-2">
-                  <button 
+                  <a 
+                    href="https://calendly.com/mario-valen-partners/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={closeMenu}
-                    className="relative w-full bg-[#0A2640] hover:bg-[#D4AF37] text-white px-4 py-3 rounded-xl text-base font-semibold transition-all duration-300 border border-[#0A2640] hover:border-[#D4AF37] overflow-hidden group"
+                    className="relative inline-block w-full bg-[#0A2640] hover:bg-[#D4AF37] text-white px-4 py-3 rounded-xl text-base font-semibold transition-all duration-300 border border-[#0A2640] hover:border-[#D4AF37] overflow-hidden group text-center"
                   >
                     {/* Infinite Shimmer Effect */}
                     <div className="absolute inset-0 -top-1 -bottom-1 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 animate-shimmer"></div>
                     <span className="relative z-10">Book Your Consultation</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
