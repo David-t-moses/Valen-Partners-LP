@@ -72,7 +72,7 @@ export default function Navbar() {
                 href="#cases"
                 className="text-[#F5F5F5] hover:text-[#D4AF37] focus:text-[#D4AF37] px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-[#D4AF37]"
               >
-                Cases
+                Numbers
               </a>
               <a
                 href="#about"
@@ -156,7 +156,7 @@ export default function Navbar() {
                   onClick={closeMenu}
                   className="text-[#F5F5F5] hover:text-[#D4AF37] hover:bg-white/10 block px-4 py-3 rounded-md text-base font-medium transition-all duration-200"
                 >
-                  Cases
+                  Numbers
                 </a>
                 <a
                   href="#about"
