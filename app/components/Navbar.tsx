@@ -29,21 +29,33 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          {/* Logo - enhanced visual container */}
           <div className="flex-shrink-0">
             <a 
               href="#" 
-              className="block focus:outline-none focus:ring-2 focus:ring-[#D4AF37] rounded-md"
+              className="block focus:outline-none focus:ring-2 focus:ring-[#D4AF37] rounded-xl"
               aria-label="Valen & Partners - Home"
             >
-              <Image
-                src="/logo-light.png"
-                alt="Valen & Partners"
-                width={180}
-                height={40}
-                className="h-12 auto"
-                priority
-              />
+              <div
+                className={`relative rounded-xl px-3 py-2 transition-all duration-500 ${
+                  isScrolled
+                    ? 'bg-white/5 border border-white/10 backdrop-blur-md shadow-lg shadow-black/20'
+                    : 'bg-transparent border border-transparent'
+                }`}
+              >
+                <Image
+                  src="/logo-light.png"
+                  alt="Valen & Partners"
+                  width={180}
+                  height={40}
+                  className="w-auto h-10 sm:h-12 select-none [image-rendering:crisp-edges]"
+                  priority
+                />
+                {/* subtle glow when scrolled */}
+                <span className={`pointer-events-none absolute inset-0 rounded-xl transition-opacity duration-500 ${isScrolled ? 'opacity-100' : 'opacity-0'}`} aria-hidden="true">
+                  <span className="absolute -inset-1 rounded-xl bg-gradient-to-r from-[#D4AF37]/10 to-[#0A2640]/10 blur"></span>
+                </span>
+              </div>
             </a>
           </div>
 
