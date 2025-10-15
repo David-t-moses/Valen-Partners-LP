@@ -142,7 +142,7 @@ export default function Footer() {
           className="mt-12 pt-8 border-t border-gray-800 text-center"
         >
           <p className="text-[#F5F5F5]/70 text-sm">
-            © {currentYear} Valen & Partners. All rights reserved.
+            © {currentYear} Valen & Partners Sp. z o.o. <br />All rights reserved.
           </p>
         </motion.div>
       </div>
